@@ -1,5 +1,8 @@
 def square_array(array)
-  array = [1, 2, 3, 4]
-  array.each { |index| array << index ** 2}
-  array
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
 end
+
+my_arr = [1, 2]
+p square_array(my_arr)
